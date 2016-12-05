@@ -1,0 +1,14 @@
+@font-face {
+	font-family: 'Fira Sans';
+	src: url('../fonts/FiraSans-Regular.otf') format('opentype');
+}
+	
+@font-face {
+	font-family: 'Fira Sans Thin';
+	src: url('../fonts/FiraSans-Thin.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'Fira Sans Light';
+	src: url('../fonts/FiraSans-Light.otf') format('opentype');
+}

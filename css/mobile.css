@@ -1,0 +1,50 @@
+.myVideo {
+		display: none;
+}
+
+.skills {
+	background: url(../img/skills.jpeg);
+	background-size: cover;
+}
+
+.skills h2 {
+	color: #FFFFFF;
+	text-shadow: 1px 1px 2px #000000;
+	position: static;
+	margin: 0;
+	padding-bottom: 50px;
+}
+
+.main {
+	position: static;
+}
+
+.photoshop {
+	display: none;
+}
+
+.technologies {
+	position: static;
+}	
+
+.github {
+	display: none;
+}
+
+.github-mobile {
+	display: block;
+	position: absolute;
+	bottom: 5vh;
+	right: 10vh;
+	font-size: 50px;
+}
+
+.github-mobile a {
+	text-decoration: none;
+	color: rgba(255,255,255,0.5)
+}
+
+.slide-folio p {
+	margin-bottom: 0.5em;
+	margin-top: 0.5em;
+}

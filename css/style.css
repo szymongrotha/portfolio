@@ -1,0 +1,323 @@
+@font-face {
+	font-family: 'Fira Sans';
+	src: url('../fonts/FiraSans-Regular.ttf') format('truetype'),	
+	url('../fonts/FiraSans-Regular.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'Fira Sans Thin';
+	src: url('../fonts/FiraSans-Thin.ttf') format('truetype'),	
+	url('../fonts/FiraSans-Thin.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'Fira Sans Light';
+	src: url('../fonts/FiraSans-Light.ttf') format('truetype'),	
+	url('../fonts/FiraSans-Light.otf') format('opentype');
+}
+
+* {
+	box-sizing: border-box;
+	font-family: 'Fira Sans';
+}
+
+.github-mobile {
+	display: none;
+}
+
+
+body {
+	margin: 0;
+	color: #FFFFFF;
+}
+
+header {
+	position: fixed;
+	z-index: 10;
+}
+
+.github {
+	position: absolute;
+	font-size: 50px;
+	z-index: 900;
+	right: 10vh;
+	bottom: 5vh;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.github:hover {
+	transform: scale(1.2);
+}
+
+.github a {
+	color: rgba(255,255,255,0.5);
+	text-decoration: none;
+}
+
+.mainBackground {
+	background: url(../img/header.jpg);
+	background-size: cover;
+}
+
+.about{
+	background-color: #343a4e;
+	z-index: 5;
+}
+
+.skills {
+	background: url(../img/skills.jpg);
+}
+
+.black {
+	background: rgba(0,0,0,0.5);
+	height: 100%;
+	width: 100%;
+}
+
+.slogan {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	color: #FFFFFF;
+	text-shadow: 2px 2px 2px #000000;
+}
+
+.slogan h1 {
+	font-size: 75px;
+	margin: 0;
+}
+
+.slogan p {
+	margin: 0;
+	font-size: 35px;
+	padding: 10px;
+	font-family: 'Fira Sans Thin';
+}
+
+.slogan p:last-of-type {
+	margin-bottom: 20px;
+}
+
+.red {
+	color: #ff2800;
+	font-size: 100px;
+}
+
+.fa-chevron-down {
+	font-size: 50px;
+	color: #FFFFFF;
+}
+
+.fa-bars {
+	font-size: 35px;
+	color: white;
+} 
+
+@media (max-width: 767px) {
+	.slogan h1 {
+		font-size: 45px;
+	}
+	.slogan p {
+		font-size: 20px;
+	}
+
+	.red {
+	color: #ff2800;
+	font-size: 65px;
+	}
+}
+
+.menu li {
+	display: inline-block;
+	padding-bottom: 25px;
+}
+
+@media (max-width: 855px) {
+	.menu li {
+		display: block;
+		font-size: 5vh;
+	}
+}
+
+.menu li a {
+	color: #FFFFFF;
+	text-decoration: none;
+	margin: 10px;
+
+}
+
+.menu li a:hover {
+	color: #ff2800;
+}
+
+.foto {
+	text-align: center;
+}
+
+.foto img {
+	border-radius: 50%;
+	width: 75%;
+	border:5px #FFFFFF solid;
+}
+
+.about-text h2 {
+	font-size: 50px;
+	margin: 0;
+}
+
+.about-text p {
+	color: #FFFFFF;
+	text-shadow: 1px 1px 15px #000000;
+	font-size: 30px;
+	font-family: 'Fira Sans Thin';
+}
+
+
+@media (min-width: 768px) and (max-width: 960px) {
+	.about-text h2 {
+		font-size: 40px;
+	}
+	.about-text p {
+		font-size: 25px;
+	}
+
+}
+
+@media (max-width: 767px) {
+	.foto img  {
+		width: 50%;
+	}
+	.about-text h2 {
+		font-size: 35px;
+	}
+	.about-text p {
+		font-size: 20px;
+	}
+}
+
+/*SKILLS*/
+
+.skills h2 {
+	font-size: 75px;
+	text-align: center;
+	color: rgba(0,0,0,.5);
+	text-shadow: 5px 5px 50px #FFFFFF;
+}
+
+.myVideo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.main {
+	position: absolute;
+	left: 0;
+	right:0;
+	top: 0;
+	font-size: 35px;
+}
+
+.item {
+	margin-bottom: 5%;
+}
+
+.technologies {
+	position: absolute;
+	top: 30vh;
+	left: 15%;
+	right: 15%;
+	text-align: center;
+	font-size: 120px;
+	text-shadow: 4px 4px 15px #000000;
+}
+
+/*FOLIO*/
+
+.folio {
+	background-color: #343a4e;
+	z-index: 2;
+}
+
+.folio h2 {
+	position: absolute;
+	z-index: 2;
+	right: 0;
+	left: 0;
+	margin: 0; 	
+	font-size: 75px;
+	text-align: center;
+	text-shadow: 2px 2px 2px #000000;
+	margin-top: 5vh;
+}
+
+.folio-content {
+	padding: 0;
+}
+
+.slide-folio {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	position: relative;
+}
+
+
+.photo-folio {
+	margin-top: 20vh;
+	width: 75%;
+	height: 65%;
+	object-fit: cover;
+	border: 5px solid #FFFFFF;
+	box-shadow: 4px 4px 4px #000000;
+	position: relative;
+}
+
+.contact {
+	position: relative;
+	background: url(../img/contact.jpg);
+	background-size: cover;
+	text-align: center;
+	text-shadow: 2px 2px 2px #000000;
+}
+
+.contact h2 {
+	font-size: 80px;
+}
+
+.contact p {
+	font-size: 50px;
+}
+
+.contact a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.fa-mobile, .fa-envelope-o {
+	padding: 12px;
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}

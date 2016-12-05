@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<title>grotha.pl - frontend developer</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/jquery.fullpage.min.css">
+	<link rel="stylesheet" type="text/css" href="css/menu.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">	
+    <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
+   	<link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="css/grid.css">	
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header>
+		<nav class="container">
+			<div class="hamburger-menu">
+				<ul class="hamburger-menu-list menu">
+					<li><a id="home" href=#home-section>Home</a></li>
+					<li><a id="about" href=#about-section>O mnie</a></li>
+					<li><a id="skills" href=#skills-section>Umiejetności</a></li>
+					<li><a id="folio" href=#folio-section>Portfolio</a></li>
+					<li><a id="contact" href=#contact-section>Kontakt</a></li>
+				</ul>
+			</div>
+			<div id="hamburger" class="hamburger-icon-wrapper">
+				<i class="fa fa-bars" aria-hidden="true"></i>
+			</div>
+		</nav>
+	</header>
+	<div class="github">
+		<a target="_blank" href="https://github.com/szymongrotha"><i class="devicon-github-plain"></i></a>
+	</div>
+	<div id="fullpage" class="mainBackground fp-auto-height-responsive">
+		<div class="section black active" data-anchor="home-section">
+			<div class="slogan container">
+				<h1>Witaj <span class="red">!</span></h1>
+				<p>Nazywam się Szymon i aspiruje do miana front-end developera.</p>
+				<p>Kliknij w ikonę menu lub przewiń aby rozpocząć!</p>
+				<a href="#about-section"><i class="fa fa-chevron-down animated infinite bounce" aria-hidden="true"></i></a>
+			</div>
+		</div>
+	    <div class="section about" data-anchor="about-section">
+	    	<div class="container">
+	    		<div class="row">
+	    			<div class="col-lg-4 col-m-4 col-s-12 foto">
+	    				<img src="img/cv.jpg">
+	    			</div>
+	    			<div class="col-m-8 col-s-12 about-text">
+	    			<h2>O mnie</h2>
+	    				<p>Nazywam się Szymon Grotha, mam 27 lat i od ponad pół roku cały swój wolny czas poświęcam  na podnoszenie poziomu znajomości technologii front-endowych. Właśnie ukończyłem trzy miesięczny bootcamp front-end.</p>
+	    				<p>Aktualnie jestem skupiony na doskonaleniu umiejętności programowania w JavaScript. Jako kolejny, naturalny krok rozwoju szukam pierwszej pracy w komercyjnej firmie.</p>
+	    			</div>
+	    		</div>
+	    	</div>
+	    </div>
+	    <div class="skills section" data-anchor="skills-section">
+	    	<div class="container">
+	    		<div class="row main">
+				    <div class="col-m-12">
+					    <h2>Umiejetności</h2>
+				    </div>
+			    </div>
+			    <div class="row technologies">
+				    <div class="col-lg-3 col-m-4 col-s-4 col-xs-6 item">
+						<i class="devicon-html5-plain-wordmark"></i>
+				    </div>
+				    <div class="col-lg-3 col-m-4 col-s-4 col-xs-6 item">
+						<i class="devicon-css3-plain-wordmark"></i>
+				    </div>
+				    <div class="col-lg-3 col-m-4 col-s-4 col-xs-6 item">
+						<i class="devicon-javascript-plain"></i>
+				    </div>
+				    <div class="col-lg-3 col-m-4 col-s-4 col-xs-6 item">
+						<i class="devicon-jquery-plain-wordmark"></i>
+				    </div>
+				    <div class="col-lg-3-5 col-m-4 col-s-4 col-xs-6 item">
+						<i class="devicon-sass-original"></i>
+				    </div>
+				    <div class="col-lg-3-5 col-m-4 col-s-4 col-xs-6 item">
+						<i class="devicon-git-plain-wordmark"></i>
+				    </div>
+				    <div class="col-lg-3-5 col-m-4 col-s-4 col-xs-6 item">
+						<i class="devicon-grunt-line-wordmark"></i>
+				    </div>
+				    <div class="col-lg-3-5 col-m-4 col-s-4 col-xs-6 item">
+						<i class="devicon-bootstrap-plain-wordmark"></i>
+				    </div>
+				    <div class="col-lg-3-5 col-m-4 col-s-4 col-xs-6 photoshop item">
+						<i class="devicon-photoshop-line"></i>
+				    </div>
+				</div>
+			</div>
+	    	<video data-autoplay loop="" muted="" class="myVideo">
+	    		<source src="video/video.webm" type="video/webm">
+			</video>
+		</div>
+		<div class="section folio" data-anchor="folio-section">
+	    	<div class="container">
+	    		<div class="row">
+	    			<div class="col-m-12 folio-content">
+	    				<h2>Portfolio</h2>
+						<div class="slide slide-folio">
+							<img src="img/folio1.jpg" class="photo-folio">
+							<p>Projekt dla fimy przesuwane.pl</p>
+						</div>
+						<div class="slide slide-folio">
+							<img src="img/folio2.jpg" class="photo-folio">
+							<p>Wyszukiwarka Cytatów API</p>
+						</div>
+						<div class="slide slide-folio">
+							<img src="img/folio3.jpg" class="photo-folio">
+							<p>Szablon RWD - Sass</p>
+						</div>
+						<div class="slide slide-folio">
+							<img src="img/folio4.jpg" class="photo-folio">
+							<p>Wszukiwarka Krajów API</p>
+						</div>
+						<div class="slide slide-folio">
+							<img src="img/folio5.jpg" class="photo-folio">
+							<p>Gra w JavaScript</p>
+						</div>
+						<div class="slide slide-folio">
+							<img src="img/folio6.jpg" class="photo-folio">
+							<p>Szablon RWD</p>
+						</div>
+		    		</div> 		    			   		   			
+    			</div>
+    		</div>
+		</div>
+		<div class="section contact" data-anchor="contact-section">
+			<h2>Kontakt</h2>
+			<p><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:szymon.grotha@gmail.com">szymon.grotha@gmail.com</a></p>
+			<p><i class="fa fa-mobile" aria-hidden="true"></i><a href="tel:+48 513 587 340">+48 513 587 340</a></p>
+			<div class="github-mobile"><a target="_blank" href="https://github.com/szymongrotha"><i class="devicon-github-plain"></i></a></div>
+		</div>
+	</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
+<script type="text/javascript" src="js/orientation.js"></script>
+<script type="text/javascript" src="js/menu.js"></script>
+<script type="text/javascript" src="js/fullpage.js"></script>
+</body>
+</html>

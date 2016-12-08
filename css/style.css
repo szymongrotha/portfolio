@@ -304,3 +304,102 @@ header {
     50% { opacity:0; }
     100% { opacity:1; }
 }
+
+@media (min-width: 768px) and (max-width: 960px) {
+	.about-text h2 {
+		font-size: 50px;
+	}
+	.about-text p {
+		font-size: 30px;
+	}
+	.photoshop {
+		display: block;
+	}
+
+	.item {
+		font-size: 60px;
+	}
+
+	.col-m-4 {
+
+	}
+}
+
+@media (max-width: 767px) {
+	.col-s-12 {
+		width: 100%;
+	}
+	.col-xs-6 {
+		width: 50%;
+	}
+	.col-s-6 {
+		width: 50%;
+	}
+	.foto img  {
+		width: 50%;
+	}
+	.about-text h2 {
+		font-size: 30px;
+	}
+	.about-text p {
+		font-size: 18px;
+	}
+	.skills h2 {
+		font-size: 50px;
+	}
+	.item {
+		font-size: 75px;
+	}
+	.photoshop {
+		display: none;
+	}
+	.folio h2 {
+		font-size: 50px;
+	}
+	.contact h2 {
+		font-size: 50px;
+	}
+	.contact p {
+		font-size: 35px;
+	}
+	.github {
+		display: none;
+	}
+
+	.github-mobile {
+		display: block;
+		position: absolute;
+		bottom: 5vh;
+		right: 10vh;
+		font-size: 50px;
+	}
+
+	.github-mobile a {
+		text-decoration: none;
+		color: rgba(255,255,255,0.5)
+	}
+
+}
+
+@media (max-width: 576px) {
+	.skills h2 {
+		font-size: 40px;
+		padding-top: 40px;
+		padding-bottom: 0;
+	}
+	.item {
+		font-size: 60px;
+	}
+	.photoshop {
+		display: none;
+	}
+	.folio  h2 {
+		font-size: 40px;
+	}
+	.contact h2 {
+		font-size: 50px;
+	}
+	.contact p {
+		font-size: 20px;
+	}
+}

@@ -1,5 +1,5 @@
 .myVideo {
-		display: none;
+	display: none;
 }
 
 .skills h2 {
@@ -20,7 +20,8 @@
 
 .technologies {
 	position: static;
-}	
+	text-shadow: 0 0;
+}
 
 .github {
 	display: none;

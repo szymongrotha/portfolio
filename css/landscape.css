@@ -8,18 +8,15 @@
 	.about-text p {
 		font-size: 20px;
 	}
-
 	.skills h2 {
 		font-size: 50px;
 		padding-top: 0;
 		padding-bottom: 0;
 	}
-
 	.item {
 		font-size: 75px;
 		margin-bottom: 0;
 	}
-
 	.folio  h2 {
 		font-size: 50px;
 	}
@@ -29,11 +26,9 @@
 	.col-s-12 {
 		width: 50%;
 	}
-
 	.col-xs-6 {
 		width: 33%;
 	}
-
 	.photoshop {
 		display: block;
 	}
@@ -58,18 +53,14 @@
 		font-size: 40px;
 		margin-bottom: 0;
 	}
-
 	.folio  h2 {
 		font-size: 30px;
 	}
-
 	.contact h2 {
 		font-size: 40px;
 	}
-
 	.contact p {
 		font-size: 20px;
 	}
-
 }
 

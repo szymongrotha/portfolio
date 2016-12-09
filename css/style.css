@@ -7,7 +7,6 @@
 	display: none;
 }
 
-
 body {
 	margin: 0;
 	color: #FFFFFF;
@@ -164,7 +163,6 @@ header {
 	.about-text p {
 		font-size: 25px;
 	}
-
 }
 
 @media (max-width: 767px) {
@@ -178,8 +176,6 @@ header {
 		font-size: 20px;
 	}
 }
-
-/*SKILLS*/
 
 .skills h2 {
 	font-size: 75px;
@@ -217,8 +213,6 @@ header {
 	text-shadow: 4px 4px 15px #000000;
 }
 
-/*FOLIO*/
-
 .folio {
 	background-color: #343a4e;
 	z-index: 2;
@@ -246,7 +240,6 @@ header {
 	text-align: center;
 	position: relative;
 }
-
 
 .photo-folio {
 	margin-top: 20vh;
@@ -283,28 +276,6 @@ header {
 	padding: 12px;
 }
 
-.typed-cursor{
-    opacity: 1;
-    -webkit-animation: blink 0.7s infinite;
-    -moz-animation: blink 0.7s infinite;
-    animation: blink 0.7s infinite;
-}
-@keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
-@-webkit-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
-@-moz-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
-
 @media (min-width: 768px) and (max-width: 960px) {
 	.about-text h2 {
 		font-size: 50px;
@@ -315,13 +286,8 @@ header {
 	.photoshop {
 		display: block;
 	}
-
 	.item {
 		font-size: 60px;
-	}
-
-	.col-m-4 {
-
 	}
 }
 
@@ -346,9 +312,17 @@ header {
 	}
 	.skills h2 {
 		font-size: 50px;
+		position: static;
+		margin: 0;
+		padding-bottom: 50px;
+		color: #FFFFFF;
+		text-shadow: 1px 1px 2px #000000;
 	}
 	.item {
 		font-size: 75px;
+	}
+	.technologies {
+		top: 15vh;
 	}
 	.photoshop {
 		display: none;
@@ -365,7 +339,6 @@ header {
 	.github {
 		display: none;
 	}
-
 	.github-mobile {
 		display: block;
 		position: absolute;
@@ -373,19 +346,23 @@ header {
 		right: 10vh;
 		font-size: 50px;
 	}
-
 	.github-mobile a {
 		text-decoration: none;
 		color: rgba(255,255,255,0.5)
 	}
-
-}
+	.myVideo {
+		display: none;
+	}
 
 @media (max-width: 576px) {
 	.skills h2 {
 		font-size: 40px;
 		padding-top: 40px;
 		padding-bottom: 0;
+		text-shadow: 1px 1px 2px #000000;
+	}
+	.technologies {
+		top: 20vh;
 	}
 	.item {
 		font-size: 60px;

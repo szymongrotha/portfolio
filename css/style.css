@@ -7,6 +7,10 @@
 	display: none;
 }
 
+.codewars {
+	width: 50vh;
+}
+
 body {
 	margin: 0;
 	color: #FFFFFF;

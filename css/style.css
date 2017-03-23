@@ -9,6 +9,7 @@
 
 .codewars {
 	width: 50vh;
+	transition: 0.3s;
 }
 
 body {
@@ -31,7 +32,7 @@ header {
 	transition: 0.3s;
 }
 
-.github:hover {
+.github:hover, .codewars:hover {
 	transform: scale(1.2);
 }
 
